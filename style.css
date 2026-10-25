@@ -21,7 +21,7 @@ h3{font-size:1.08rem;margin:1.6em 0 .4em}
 .hero .sub{border-top:1px solid var(--gold);margin:12px auto 0;padding-top:10px;max-width:360px;letter-spacing:.15em;font-size:.9rem}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
 .card{display:grid;gap:6px;align-content:start;text-decoration:none;color:var(--fg)}
-.card img,.card .ph{aspect-ratio:4/5;object-fit:cover;width:100%;background:var(--tint);border-radius:4px}
+.card img{aspect-ratio:4/5;object-fit:cover;width:100%;background:var(--tint);border-radius:4px}
 .card .t{font-size:.98rem;line-height:1.6}
 .card .s{font-size:.8rem;color:var(--muted)}
 .post{max-width:680px;margin:0 auto}
@@ -41,3 +41,4 @@ summary{cursor:pointer;font-weight:500}
 footer{border-top:1px solid var(--line);padding:24px 16px 40px;text-align:center;font-size:.82rem;color:var(--muted)}
 footer p{margin:.3em 0}
 a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.card:not(:has(img)){border:1px solid var(--line);border-radius:6px;padding:16px}
