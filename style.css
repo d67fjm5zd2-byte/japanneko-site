@@ -113,3 +113,6 @@ figcaption a{color:var(--muted)}
 body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 /* Article body: newspaper style, lines filled edge to edge (Antoine's native-speaker check 25 Oct); phrase breaks stay for headings, cards, hero */
 .post p,.post li,.post td,figcaption{word-break:normal;overflow-wrap:break-word;text-align:justify;text-justify:inter-character}
+/* Follow box on phones: stacked, so centre text and button (Antoine 25 Oct) */
+@media (max-width:600px){.follow{flex-direction:column;justify-content:center;text-align:center}}
+.post .follow p{word-break:keep-all;overflow-wrap:anywhere;text-align:inherit}
