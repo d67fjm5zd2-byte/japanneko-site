@@ -109,3 +109,5 @@ figcaption a{color:var(--muted)}
 .logo:active .mark{transform:scale(.96);transition-duration:.1s}
 .logo .mark{box-shadow:0 0 0 1px var(--line)}
 @media (prefers-color-scheme:dark){.logo .mark{filter:invert(1)}}
+/* Japanese line breaks: build.py puts <wbr> between phrases (BudouX); keep-all breaks only there, strict keeps 。、ー and small kana off line starts */
+body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
