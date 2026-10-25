@@ -107,3 +107,5 @@ figcaption a{color:var(--muted)}
 .logo .mark{width:30px;height:30px;border-radius:50%;box-shadow:0 0 0 1px var(--line),0 2px 8px rgba(0,0,0,.12);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
 .logo:hover .mark{transform:scale(1.06) rotate(-4deg)}
 .logo:active .mark{transform:scale(.96);transition-duration:.1s}
+.logo .mark{box-shadow:0 0 0 1px var(--line)}
+@media (prefers-color-scheme:dark){.logo .mark{filter:invert(1)}}
