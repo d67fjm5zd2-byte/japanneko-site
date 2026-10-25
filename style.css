@@ -101,3 +101,5 @@ figcaption a{color:var(--muted)}
 .feature{overflow:hidden}
 .grid4{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:860px){.grid4{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+.refs{font-size:.9rem}
+.note{font-size:.85rem;color:var(--muted)}
