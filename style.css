@@ -118,3 +118,4 @@ body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 .post .follow p{word-break:keep-all;overflow-wrap:anywhere;text-align:inherit}
 
 .note{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 28px;margin:48px 0 0}.note h2{margin-top:0;font-size:1.1rem}.note p{margin:.6em 0}
+.related{margin:48px 0 0}.related h2{font-size:1.1rem}.related ul{margin:.6em 0;padding-left:1.2em}.related li{margin:.4em 0}
