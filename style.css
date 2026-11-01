@@ -116,3 +116,5 @@ body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 /* Follow box on phones: stacked, so centre text and button (Antoine 25 Oct) */
 @media (max-width:600px){.follow{flex-direction:column;justify-content:center;text-align:center}}
 .post .follow p{word-break:keep-all;overflow-wrap:anywhere;text-align:inherit}
+
+.note{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 28px;margin:48px 0 0}.note h2{margin-top:0;font-size:1.1rem}.note p{margin:.6em 0}
