@@ -119,3 +119,6 @@ body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 
 .note{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 28px;margin:48px 0 0}.note h2{margin-top:0;font-size:1.1rem}.note p{margin:.6em 0}
 .related{margin:48px 0 0}.related h2{font-size:1.1rem}.related ul{margin:.6em 0;padding-left:1.2em}.related li{margin:.4em 0}
+/* Home blog row: 4 cards on desktop only; the 4th stays hidden on mobile/tablet (Antoine 5 Nov) */
+@media (min-width:861px){.cards.blog4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:860px){.cards.blog4 .card:nth-child(4){display:none}}
