@@ -3,6 +3,7 @@
 > 2010年から続く日本の猫好きコミュニティ。猫と暮らす人向けの記事と猫雑学（日本語）。Instagram @japanneko_official。
 
 ## ブログ
+- [猫の年齢を人間に換算すると何歳？早見表と年代別の暮らし方](https://japanneko.com/blog/neko-nenrei-hayamihyo/): 猫の年齢を人間に換算した早見表です。1歳は15〜18歳で2歳は24歳。7歳で44歳になります。年代ごとの暮らし方と健康診断の目安もまとめました。
 - [猫の名前ランキングと名づけのコツ：人気の名前と日本らしい名前の決め方](https://japanneko.com/blog/neko-namae/): アニコム損保の猫の名前ランキングをもとに人気の名前を紹介します。2文字が多い理由や呼びやすい名づけのコツ。和風の名前のヒントもまとめました。
 - [日本の猫島めぐり：田代島・青島・相島の特徴と島に行く前のマナー](https://japanneko.com/blog/neko-jima-meguri/): 猫が人より多く暮らす日本の猫島を3つ紹介します。宮城の田代島・愛媛の青島・福岡の相島。アクセスの目安と猫にも島にもやさしいマナーをまとめました。
 - [猫が冬に水を飲まないときは？飲水量の目安と自然に飲ませる7つのコツ](https://japanneko.com/blog/neko-mizu-fuyu/): 冬は猫の飲水量が落ちやすく、膀胱炎や尿石症が増える季節です。1日の飲水量の目安と測り方、自然に水を飲ませる工夫、受診の目安を獣医師の解説をもとにまとめました。
@@ -10,6 +11,8 @@
 - [猫の寒さ対策ガイド：寒がりのサインと冬の部屋づくり7つのコツ](https://japanneko.com/blog/neko-samusa-taisaku/): 猫が寒いと感じているときのサインと冬の室温・湿度の目安、こたつや湯たんぽで気をつけたいことを、猫と暮らす人の目線でまとめました。
 
 ## 猫雑学
+- [毛柄でちがう？猫の性格のうわさ4つ](https://japanneko.com/zatsugaku/kegara_uwasa/)
+- [猫の毛づくろい、じつは起きている時間の3割以上](https://japanneko.com/zatsugaku/zatsugaku_kezukuroi/)
 - [江戸の猫あるある、今と同じすぎる](https://japanneko.com/zatsugaku/edo_aruaru/)
 - [寒くなってきたら、猫の部屋づくりを見直す季節です](https://japanneko.com/zatsugaku/blog_samusa/)
 - [寒くなると猫がすること5つ](https://japanneko.com/zatsugaku/samui/)
