@@ -3,6 +3,7 @@
 > 2010年から続く日本の猫好きコミュニティ。猫と暮らす人向けの記事と猫雑学（日本語）。Instagram @japanneko_official。
 
 ## ブログ
+- [猫がゴロゴロ鳴らす理由とは？仕組みと嬉しいとき以外のサイン](https://japanneko.com/blog/neko-gorogoro/): 猫のゴロゴロ音の仕組みと鳴らす理由をまとめました。嬉しいときだけでなく痛みや不安のサインのこともあります。見分け方と動物病院へ行く目安も解説します。
 - [猫の年齢を人間に換算すると何歳？早見表と年代別の暮らし方](https://japanneko.com/blog/neko-nenrei-hayamihyo/): 猫の年齢を人間に換算した早見表です。1歳は15〜18歳で2歳は24歳。7歳で44歳になります。年代ごとの暮らし方と健康診断の目安もまとめました。
 - [猫の名前ランキングと名づけのコツ：人気の名前と日本らしい名前の決め方](https://japanneko.com/blog/neko-namae/): アニコム損保の猫の名前ランキングをもとに人気の名前を紹介します。2文字が多い理由や呼びやすい名づけのコツ。和風の名前のヒントもまとめました。
 - [日本の猫島めぐり：田代島・青島・相島の特徴と島に行く前のマナー](https://japanneko.com/blog/neko-jima-meguri/): 猫が人より多く暮らす日本の猫島を3つ紹介します。宮城の田代島・愛媛の青島・福岡の相島。アクセスの目安と猫にも島にもやさしいマナーをまとめました。
@@ -11,6 +12,7 @@
 - [猫の寒さ対策ガイド：寒がりのサインと冬の部屋づくり7つのコツ](https://japanneko.com/blog/neko-samusa-taisaku/): 猫が寒いと感じているときのサインと冬の室温・湿度の目安、こたつや湯たんぽで気をつけたいことを、猫と暮らす人の目線でまとめました。
 
 ## 猫雑学
+- [猫雑学 #5｜猫のご先祖さまは、砂漠の生まれと言われています](https://japanneko.com/zatsugaku/zatsugaku5_sabaku/)
 - [猫雑学 #4｜猫の耳は、左右べつべつに動かせます](https://japanneko.com/zatsugaku/zatsugaku4_mimi/)
 - [猫のしっぽの気持ち、9つのサイン](https://japanneko.com/zatsugaku/blog_shippo/)
 - [毛柄でちがう？猫の性格のうわさ4つ](https://japanneko.com/zatsugaku/kegara_uwasa/)
