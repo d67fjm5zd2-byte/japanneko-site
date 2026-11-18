@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ダウンロード｜日本ねこ</title><meta name="description" content="ご購入ありがとうございます。">
+<link rel="canonical" href="https://japanneko.com/dl/"><meta property="og:title" content="ダウンロード｜日本ねこ">
+<meta property="og:description" content="ご購入ありがとうございます。"><meta property="og:url" content="https://japanneko.com/dl/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="日本ねこ JAPAN NEKO"><meta property="og:locale" content="ja_JP"><meta property="fb:pages" content="376707050836"><meta name="facebook-domain-verification" content="9hm7pyuf6eatnxld0u24rzaswqwbch">
+<meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://japanneko.com/blog/neko-nukege-seidenki/jpcat112.jpg"><meta property="og:image:alt" content="ダウンロード"><meta name="robots" content="noindex,follow"><link rel="icon" href="/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/style.css"></head>
+<body><header class="top"><a class="logo" href="/"><img class="mark" src="/mark-bw.png" width="30" height="30" alt="">JAPAN NEKO<span>日本ねこ</span></a>
+<nav><a href="/blog/">ブログ</a><a href="/zatsugaku/">猫雑学</a><a href="/about/">日本ねこに<wbr>ついて</a><a href="https://www.instagram.com/japanneko_official/" target="_blank" rel="noopener">Instagram</a></nav></header>
+<main><article class="post"><h1>ご購入<wbr>ありがとう<wbr>ございます</h1>
+<p>下の<wbr>ボタンから<wbr>PDFを<wbr>保存してください。<wbr>この<wbr>ページを<wbr>ブックマークしておくと、<wbr>あとから<wbr>もう<wbr>一度<wbr>ダウンロードできます。</p>
+<div id="dl"><p>準備しています…</p></div>
+<p>うちの<wbr>子の<wbr>写真は<wbr> #JapanNeko を<wbr>つけて<wbr>Instagramに<wbr>投稿してくださいね。<a href="https://www.instagram.com/japanneko_official/" target="_blank" rel="noopener">@japanneko_official</a></p></article></main>
+<footer><p>日本ねこ<wbr>（JAPAN NEKO）は<wbr>2010年に<wbr>Facebookで<wbr>始まった<wbr>猫好きの<wbr>コミュニティです。</p>
+<p>健康に<wbr>関する<wbr>内容は<wbr>一般的な<wbr>情報です。<wbr>気に<wbr>なる<wbr>様子が<wbr>あれば、<wbr>かかりつけの<wbr>動物病院に<wbr>相談してください。</p>
+<p><a href="https://www.instagram.com/japanneko_official/" target="_blank" rel="noopener">Instagram</a>・<a href="/about/">運営に<wbr>ついて</a>・<a href="/shop/">ショップ</a></p></footer><script>window.SHOP = {"senior-guide": {"title": "7歳からのシニア猫ケアガイド", "file": "senior-cat-care-guide.pdf"}, "neko-techo": {"title": "うちの子 猫手帳", "file": "uchinoko-neko-techo.pdf"}};</script><script>
+(async () => {
+  const q = new URLSearchParams(location.search), p = q.get('p') || '', k = q.get('k') || '';
+  const box = document.getElementById('dl'), item = (window.SHOP || {})[p];
+  if (!/^[a-z0-9-]+$/.test(p) || !item || !k) { box.innerHTML = '<p>リンクが正しくありません。お手数ですがInstagramのDMでお知らせください。</p>'; return; }
+  try {
+    const b64 = k.replace(/-/g, '+').replace(/_/g, '/');  // keys are unpadded base64url; atob needs padding
+    const raw = Uint8Array.from(atob(b64 + '='.repeat((4 - b64.length % 4) % 4)), c => c.charCodeAt(0));
+    const key = await crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['decrypt']);
+    const buf = await (await fetch('/dl/' + p + '.bin')).arrayBuffer();
+    const pdf = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: buf.slice(0, 12) }, key, buf.slice(12));
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([pdf], { type: 'application/pdf' }));
+    a.download = item.file; a.className = 'btn'; a.textContent = item.title + 'をダウンロード';
+    box.replaceChildren(a);
+  } catch (e) { box.innerHTML = '<p>ファイルを開けませんでした。お手数ですがInstagramのDMでお知らせください。</p>'; }
+})();
+</script></body></html>

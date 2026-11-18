@@ -113,14 +113,18 @@ figcaption a{color:var(--muted)}
 @media (prefers-color-scheme:dark){.logo .mark{filter:invert(1)}}
 /* Japanese line breaks: build.py puts <wbr> between phrases (BudouX); keep-all breaks only there, strict keeps 。、ー and small kana off line starts */
 body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
-/* Article body: newspaper style, lines filled edge to edge (Antoine's native-speaker check 25 Oct); phrase breaks stay for headings, cards, hero */
+/* Article body: newspaper style, lines filled edge to edge (native-speaker check 25 Oct); phrase breaks stay for headings, cards, hero */
 .post p,.post li,figcaption{word-break:normal;overflow-wrap:break-word;text-align:justify;text-justify:inter-character}
-/* Follow box on phones: stacked, so centre text and button (Antoine 25 Oct) */
+/* Follow box on phones: stacked, so centre text and button */
 @media (max-width:600px){.follow{flex-direction:column;justify-content:center;text-align:center}}
 .post .follow p{word-break:keep-all;overflow-wrap:anywhere;text-align:inherit}
 
 .note{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 28px;margin:48px 0 0}.note h2{margin-top:0;font-size:1.1rem}.note p{margin:.6em 0}
 .related{margin:48px 0 0}.related h2{font-size:1.1rem}.related ul{margin:.6em 0;padding-left:1.2em}.related li{margin:.4em 0}
-/* Home blog row: 4 cards on desktop only; the 4th stays hidden on mobile/tablet (Antoine 5 Nov) */
+/* Home blog row: 4 cards on desktop only; the 4th stays hidden on mobile/tablet */
 @media (min-width:861px){.cards.blog4{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media (max-width:860px){.cards.blog4 .card:nth-child(4){display:none}}
+.shop .product{display:grid;grid-template-columns:minmax(0,220px) 1fr;gap:24px;align-items:start;margin:32px 0;padding-top:24px;border-top:1px solid var(--line,#e5e5e5)}
+.shop .product img{width:100%;height:auto;border-radius:12px}
+.shop .product h2{margin:0 0 4px}.shop .price{font-weight:600;margin:0 0 8px}
+@media (max-width:640px){.shop .product{grid-template-columns:1fr}.shop .product img{max-width:260px}}
