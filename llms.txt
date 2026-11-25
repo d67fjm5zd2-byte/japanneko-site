@@ -5,6 +5,7 @@
 - [日本ねこについて（運営・方針）](https://japanneko.com/about/)
 
 ## ブログ
+- [招き猫の意味と由来：右手・左手・色でどう変わる？](https://japanneko.com/blog/neko-manekineko/): 招き猫の右手と左手の意味の違い、豪徳寺や今戸焼など発祥の諸説、白・黒・金・三毛といった色ごとの意味、9月29日の招き猫の日の由来をまとめました。
 - [猫に危ない年末年始の食べものと植物：おせち・もち・花の注意点](https://japanneko.com/blog/neko-nenmatsu-nenshi-kiken/): 年末年始に多いおせちやもち、ねぎ類、ユリなどの花で猫が中毒や誤飲を起こす理由と注意点をまとめました。もし食べてしまったときの対処法も紹介します。
 - [年末年始、猫の留守番は何日までOK？帰省前のチェックリスト](https://japanneko.com/blog/neko-rusuban-kisei/): 年末年始に帰省するときの猫の留守番は何日まで大丈夫か、水とエサの準備、室温の目安、ペットシッターとペットホテルの違いをまとめました。
 - [猫の抜け毛がひどい時期と冬の静電気対策、ブラッシングの頻度は？](https://japanneko.com/blog/neko-nukege-seidenki/): 猫の抜け毛が増える換毛期の時期とブラッシングの頻度をまとめました。冬に増える静電気を防ぐ方法と、抜け毛が多すぎるときの受診の目安も解説します。
@@ -17,6 +18,8 @@
 - [猫の寒さ対策ガイド：寒がりのサインと冬の部屋づくり7つのコツ](https://japanneko.com/blog/neko-samusa-taisaku/): 猫が寒いと感じているときのサインと冬の室温・湿度の目安、こたつや湯たんぽで気をつけたいことを、猫と暮らす人の目線でまとめました。
 
 ## 猫雑学
+- [東京のおうち猫｜ひなたでごろごろする猫がこちら](https://japanneko.com/zatsugaku/tokyo4_hinata/)
+- [猫の年齢を人間に換算した早見表と、年代別の暮らし方](https://japanneko.com/zatsugaku/blog_nenrei/)
 - [冬の猫の暮らし、気をつけたいこと5つ](https://japanneko.com/zatsugaku/fuyu_chui/)
 - [猫の寝相でわかる気持ち5つ](https://japanneko.com/zatsugaku/nesou/)
 - [東京のおうち猫｜まんまるの目でこっちを見る猫がこちら](https://japanneko.com/zatsugaku/tokyo3_maruime/)
